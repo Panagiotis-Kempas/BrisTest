@@ -17,7 +17,7 @@ namespace tier1_question3
 
         ///
         /// <summary>
-        /// In the below code I create a function which takes a list of strings and
+        /// In the below code I create a method which takes a list of strings and
         /// I filter this list with where linq method and I check which string contains o or O characters and I return a new list of strings
         /// </summary>
         public static void PrintStringThatContainLettero(List<string> list)

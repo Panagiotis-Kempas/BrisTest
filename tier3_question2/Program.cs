@@ -15,6 +15,15 @@ namespace tier3_question2
             PrintWordsWhichAreAnagrams(list);
         }
 
+
+        ///
+        /// <summary>
+        /// Below there is a method whick takes a list of strings.First I covert every string in the list to a new string which has not white spaces
+        /// Then I create a list of key value pair.And I make two for loops.The one starts from the beginning of the list(index 0) and the other from the  second from the second element(index 1)
+        /// By this way I loop the list two times but taking different elements to check if for every element in the list exist another element with 
+        /// the characteristics of same length then i declare to variables with two lists of characters one for the word from the first loop and one for the other word in the second loop (the word after the first)
+        /// and i check if the first word contains all the letters of the second.If yes then i create a key value pair with the two words together and i add to the key value pair list so ican print the pairs later
+        /// </summary>
         public static void PrintWordsWhichAreAnagrams(List<string> words)
         {
             for (int i = 0; i < words.Count; i++)

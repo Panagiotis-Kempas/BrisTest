@@ -16,7 +16,7 @@ namespace tier2_question1
 
         ///
         /// <summary>
-        /// Below I created a function whick takes a list of integers.I filter every number in the list and check if the number
+        /// Below I created a method whick takes a list of integers.I filter every number in the list and check if the number
         /// is being divided by 2 or 5 and returns zero remainder so it means it's divisable with these two numbers and I take the average of the 
         /// new list which returns the where method
         /// </summary>
